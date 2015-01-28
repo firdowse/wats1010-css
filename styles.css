@@ -1,6 +1,77 @@
-/* This is where styles are defined for your page. */
-/* One style is provided as example. */
+body{
+background-image: url('images/hard-paper-texture.jpg')		
+}
+header{
+background-color: gray;
+font-family: 'Lobster', cursive, sans-serif;
+text-align: center;	
+color: white;
+line-height: 30px;	
+}
 
-h1 {
-    color: green;
+.page-header p, h1{
+margin-bottom: 0;
+}
+.social-links li{
+display: inline;
+color: white;	
+}
+aside{
+background-color: Brown;
+}
+section{
+background-color: DarkOliveGreen;
+}
+footer{
+background-color: DarkCyan;
+color: white;
+text-align: center;		
+}
+ul {
+list-style-type: none;
+}
+ul, footer, section, aside{
+font-family: 'Courgette', cursive sans-serif;	
+color: white;	
+}
+aside.more-info img{
+width: 150px; 
+height: auto;	
+float: right;
+border: 3px solid;	
+}
+
+.poem{
+line-height: 40px;		
+}
+ 
+.social-links li{
+background-color: lightgreen;	
+margin: 5px 5px 5px 5px;
+padding: 7px 7px 7px 7px;
+	
+}
+.page-header{
+border: solid 5px;
+}
+
+footer ul li{
+display: inline;
+}
+footer ul li{
+background-color: MediumAquaMarine;	
+color: white;	
+margin: 5px 5px 5px 5px;
+padding: 5px 5px 5px 5px;
+}
+a:hover{
+background-color: red;
+}
+.info-links li{
+background-color:SeaGreen;
+margin: 5px 5px 5px 5px;
+padding: 4px 4px 4px 4px;	
+width: 200px;	
+text-decoration: blink;
+	
 }
